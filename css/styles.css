@@ -111,6 +111,15 @@ section {
 
 @media screen and (max-width: 500px) {
 
+	#text .alinhamento-text-area {
+		padding: 0 10%;
+	}
+
+	h1 {
+		font-size: 2.3em;
+		font-weight: 800;
+	}
+
 	.row {
 		margin-right: 0 !important;
 		margin-left: 0 !important;
@@ -121,7 +130,7 @@ section {
 	}
 
 	section#title {
-    	padding: 5% 15% 5%;
+    	padding: 5% 10% 5%;
 	}
 
 	div.container-fluid nav.navbar {
@@ -141,7 +150,7 @@ section {
 	}
 
 	#title div.col-sm-10>h1 {
-		font-size: 2.1em;
+		font-size: 2em;
 	}
 
 	#title div.col-sm-10 p {
@@ -199,15 +208,15 @@ section {
 	}
 
 	.quadro-regras-numero {
-		flex: 0 0 25%;
- 	   max-width: 25%;
+		/*flex: 0 0 25%;
+ 	   max-width: 25%;*/
  	   padding: 0 !important;
 	}
 	
 	#regras div div.quadro-regras-texto {
 	    -ms-flex: 0 0 75%;
 	    flex: 0 0 75%;
-	    max-width: 75%;
+	    /*max-width: 75%; */
 	    padding: 1rem;
 	}
 
