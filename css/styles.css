@@ -1,0 +1,562 @@
+/*------------------------- Text page ---------------------------*/
+#text, .text {
+	padding-top: 170px;
+}
+
+.alinhamento-text-area {
+	padding: 0 15%;
+}
+
+/*------------------------- Config. Gerais ---------------------------*/
+h2,
+h3,
+h4,
+h5, p, li {
+	font-family: 'Poppins', sans-serif;
+}
+
+.card-body a {
+	color: #333;
+}
+
+.card-body a:link {
+	color: #333;
+}
+
+.card-body a:visited {
+	color: #555;
+}
+
+.card-body a:hover {
+	text-decoration: none;
+	color: #2196F3;
+}
+
+.card-body a:active {
+	text-decoration: none;
+	color: #2196F3;
+}
+
+section>span:before  {
+	height: 40px;
+	content: "";
+	display:block;
+}
+
+h2{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 0.5em
+}
+
+
+.container-fluid.container-header{
+	padding-left: 0;
+	padding-right: 0;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.section-padding {
+	padding-top:0%;
+	margin-bottom: 5%;
+}
+
+.espacamento {
+	padding: 20px;
+}
+
+.alinhamento-container {
+	padding: 0;
+}
+
+.alinhamento-colunas {
+	padding: 0 10%;
+}
+
+section > .container {
+	margin: 0 auto;
+}
+
+.col-padding-sides {
+	padding-left: 0;
+	padding-right: 0;	
+}
+
+.border-card {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+}
+
+section {
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
+
+.padding-colunas {
+	padding-top: 20px;
+	padding: 25px;
+}
+
+.card-body {
+	text-align:	center;
+}
+
+#social.distancia-bottom {
+	margin-bottom: 8em;
+}
+
+
+@media screen and (max-width: 500px) {
+
+	.row {
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+
+	#title.area-title {
+    	margin-top: 84px;
+	}
+
+	section#title {
+    	padding: 5% 15% 5%;
+	}
+
+	div.container-fluid nav.navbar {
+		padding-top: 0;
+		margin-bottom: 0;
+	}
+
+	nav.navbar div.show li a {
+		font-size: 1.3em;
+	    font-weight: 600;
+	    line-height: 2em;
+	}
+
+	nav.navbar div.show ul {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	#title div.col-sm-10>h1 {
+		font-size: 2.1em;
+	}
+
+	#title div.col-sm-10 p {
+		font-size: 1.3em;
+	}	
+
+	h2{
+		font-size: 2em;
+	}
+
+	#title div.col>p {
+		font-size: 1em;
+	}
+
+	body #movimentos {
+	    margin-left: 0.5em;
+	    margin-right: 0.5em;
+	}
+
+	#mortalkbarz .col-md-4> img {
+		width: 100%;
+    	padding: 30px;
+    	margin-top: 0;
+    	margin-left: 0;
+	}
+
+	#mortalkbarz .col-md-4> img.center-image {
+		margin:0;
+	}
+
+	#mortalkbarz .col .card .card-body {
+    	margin-top: 0;
+	}
+
+	#membros, #regras, #movimentos, #mortalkbarz, #social {
+		margin: 4.5em 0;
+	}
+
+	section#batalhas {
+		margin: 3.5em 0;
+		padding-top: 12%;	
+	}
+
+	#movimentos .card-body h6 {
+		font-size: small;
+	}
+
+	#movimentos .card-body p {
+		font-size: x-small;
+	}
+
+	#movimentos div .collapse.show {
+		padding-left: 0.5em;
+		margin-left: 0.3em;
+	}
+
+	.quadro-regras-numero {
+		flex: 0 0 25%;
+ 	   max-width: 25%;
+ 	   padding: 0 !important;
+	}
+	
+	#regras div div.quadro-regras-texto {
+	    -ms-flex: 0 0 75%;
+	    flex: 0 0 75%;
+	    max-width: 75%;
+	    padding: 1rem;
+	}
+
+	#regras p, li {
+		font-size: 0.8rem;
+	}
+
+	#regras ul {
+		padding-inline-start: 1em;
+	}
+
+	#regras .quadro-regras-texto div h6 {
+		font-size: 1em;
+	}	
+
+	.row .col.alinhamento-colunas-regras {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	#regras a.nav-link {
+	    padding: 1rem 1rem;
+	}
+
+	section { 
+		position: relative;
+	}
+
+	section>span {
+		position: absolute;
+		top: -6.5em;
+	}
+
+	section>span#batalhas-ancora {
+		position: absolute;
+		top: -4.5em;
+	}
+
+	/*
+	.alinhamento-colunas {
+		padding: 0 3%;
+	}	
+
+	.padding-colunas {
+		padding: 10px;
+	}
+	*/
+}
+/*--------------------------- navbar ---------------------------*/
+
+nav.navbar {
+	padding: 1% 15%;
+	background-color: #fff;
+}
+
+nav.navbar ul li a {
+	color: #333 !important;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	font-size: 0.77em;
+    font-weight: 600;
+}
+
+nav.navbar ul li a:hover {
+	color: #999 !important;
+}
+
+/*--------------------------- Main-area (title) ---------------------------*/
+#title h1 {
+	font-family: 'Poppins', sans-serif;
+    font-size: 3.1rem;
+    line-height: 1.2;
+    letter-spacing: 3PX;
+    font-weight: 900;
+    color: #333;
+}
+
+
+#title {
+	background: #efefef;
+	padding: 0 15% 1%;
+}
+
+#title {
+	margin-top: 100px;
+}
+
+.main-area {
+	padding: 12% 0;
+}
+
+.main-area .container {
+	padding-left: 0;
+}
+
+.main-area .container .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.main-area p {
+	color: #999;
+	font-size: 1.5rem;
+}
+
+.main-area a {
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	font-size: 1em;
+    font-weight: 600;
+}
+
+.main-area {
+	text-align: left;
+}
+
+/*--------------------------- MEMBROS ---------------------------*/
+
+#membros div.card img {
+	padding: auto;
+	margin: auto;
+}
+
+#membros .card-deck .card h5, .area-membros .card-deck .card .text-muted {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#membros .card-deck .card p {
+	color: #999;
+}
+
+#membros {
+	padding: 5% 0;	
+}
+
+.sem-borda {
+	border: none;
+}
+
+.area-membros hr {
+	margin:0;
+}
+
+#membros.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: .5rem;
+}
+
+#membros .apelido {
+	color: #777;
+	font-size: 0.8em;
+	font-weight: 600;
+}
+
+/*--------------------------- VIDEO (BATALHA) ---------------------------*/
+.video-batalha {
+	margin: 0 auto 5%;
+	text-align: center;
+}
+
+#batalhas {
+	background-color: #eee;
+	color:#000;
+	padding: 5% 0;
+}
+
+
+/*--------------------------- REGRAS ---------------------------*/
+
+#regras {
+	margin-bottom: 5%;
+}
+
+.regras div.row {
+	border: solid 1px #dedede;
+	border-radius: 3px;
+}
+
+#regras .container .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#regras .quadro-regras-texto {
+	padding: 1.5em;
+}
+
+#regras .quadro-regras-texto h6 {
+	font-size: 1.3em;
+}
+
+.alinhamento-colunas-regras {
+	padding: 0 9%;
+}
+
+/*
+.regras, .area-movimentos {
+	margin: 0 5% 10%;
+}
+*/
+
+#regras .nav-pills a.nav-link.active, .nav-pills .show>a.nav-link {
+    color: #fff;
+    background-color: #000;
+}
+
+#regras a, #regras a:hover {
+    color: #000;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.regras-barra-lateral {
+	background-color: #efefef;
+}
+
+
+/*--------------------------- MOVIMENTOS ---------------------------*/
+
+#movimentos {
+	margin-left: 7em;
+	margin-right: 7em;
+}
+
+#movimentos .card-body.accordion-body {
+	padding: 1.3rem 0 0;
+}
+
+#movimentos .card-header {
+	border-bottom: none;
+}
+
+#movimentos .card-header button {
+	text-decoration: underline;
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+
+#movimentos .card-body {
+	padding: 0.6rem 0 0;
+}
+
+#movimentos .card {
+	border: none;
+}
+
+#movimentos .card-title {
+	font-weight: 700;
+}
+
+#movimentos p.apelido {
+	color: #aaa;
+	font-weight: 500;
+	font-size: 0.7em;	
+}
+
+#movimentos p.frase-movimento {
+	font-size: 0.9em;
+}
+
+#movimentos .center-no-image {
+	margin: 0px auto 0;
+}
+
+#movimentos .nivel {
+	background-color: #999;
+	color: #fff;
+}
+
+.area-movimentos .row .card-body {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#movimentos .accordion .btn-link:hover {
+    color: #cdcdcd;
+    text-decoration: underline;
+}
+
+#movimentos .collapse.show {
+	border-left: 1px solid #ccc;
+	padding-left: 1.5em;
+}
+
+#movimentos .accordion .btn:focus {
+    color: #cdcdcd;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+#movimentos .accordion .btn-link {
+	color: #fff;
+}
+
+#movimentos img {
+	width: 100%;
+}
+
+/*--------------------------- MORTALKBZ ---------------------------*/
+#mortalkbarz .card {
+	background-color: #000;
+	color: #fff;
+}
+
+#mortalkbarz .card .card-body {
+	margin-top: 7%;
+}
+
+#mortalkbarz img {
+	margin-left: 30px;
+}
+
+.center-image {
+	margin: 20px auto;
+}
+
+/*--------------------------- SOCIAL ---------------------------*/
+
+.social-icons {
+	text-align: center;
+	font-size: 4em;
+}
+
+.social-icons a {
+	color: #000;
+}
+
+.social-icons a:hover {
+	color: #444;
+}
+
+.social-icons a:active {
+	color: #999;
+}
+/*--------------------------- FOOTER ---------------------------*/
+
+footer {
+	margin: 0 auto 3%;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
