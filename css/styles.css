@@ -15,24 +15,28 @@ h5, p, li {
 	font-family: 'Poppins', sans-serif;
 }
 
-.card-body a {
+.area-membros.alinhamento-colunas {
+	padding: 0 5%;
+}
+
+.card.lista a {
 	color: #333;
 }
 
-.card-body a:link {
+.card.lista a:link {
 	color: #333;
 }
 
-.card-body a:visited {
+.card.lista a:visited {
 	color: #555;
 }
 
-.card-body a:hover {
+.card.lista a:hover {
 	text-decoration: none;
 	color: #2196F3;
 }
 
-.card-body a:active {
+.card.lista a:active {
 	text-decoration: none;
 	color: #2196F3;
 }
@@ -189,6 +193,14 @@ section {
 		margin: 4.5em 0;
 	}
 
+	section#membros.list-page {
+		margin: 1em 0;
+	}
+
+	#membros #lista-docs h5.card-title {
+	font-weight: 700; 
+	}
+
 	section#batalhas {
 		margin: 3.5em 0;
 		padding-top: 12%;	
@@ -307,6 +319,10 @@ nav.navbar ul li a:hover {
 
 .main-area {
 	padding: 12% 0;
+}
+
+.main-area.lista-docs {
+	padding: 12% 0 3%;
 }
 
 .main-area .container {
